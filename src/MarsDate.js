@@ -1,7 +1,7 @@
 import React from 'react';
 
-function getMarsDate() {
-    var currentEarthDate = new Date();
+function getMarsDate(state) {
+    var currentEarthDate =  state.currentEarthdate;
     
     var earthTime = currentEarthDate.getTime();
     var julianDate = (earthTime / 86400000) - (currentEarthDate.getTimezoneOffset()/1440) + 2440587.5;
@@ -104,10 +104,31 @@ function sin(deg) {
 
 
 class MarsDate extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {currentEarthdate: new Date()};
+    }
+
+    componentDidMount() {
+        this.timerID = setInterval(
+            () => this.tick(),
+            1000
+          );
+    }
+  
+    componentWillUnmount() {
+        clearInterval(this.timerID);
+    }
+
+    tick() {
+        this.setState({
+            currentEarthdate: new Date()
+        });
+      }
 
     render() {
         return(
-            getMarsDate()
+            getMarsDate(this.state)
         )
     }
 }
