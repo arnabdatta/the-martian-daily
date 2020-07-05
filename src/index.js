@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import TheMartianDaily from './TheMartianDaily';
+import PageBody from './PageBody';
+import PageHeader from './PageHeader';
 
-ReactDOM.render(<TheMartianDaily />, document.getElementById('root'));
+ReactDOM.render(<PageHeader />, document.getElementById('header'));
+ReactDOM.render(<PageBody />, document.getElementById('allcontent'));
