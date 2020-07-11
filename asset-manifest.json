@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/the-martian-daily/static/css/main.7822fec3.chunk.css",
+    "main.js": "/the-martian-daily/static/js/main.c14c0635.chunk.js",
+    "main.js.map": "/the-martian-daily/static/js/main.c14c0635.chunk.js.map",
+    "runtime-main.js": "/the-martian-daily/static/js/runtime-main.d47a7a22.js",
+    "runtime-main.js.map": "/the-martian-daily/static/js/runtime-main.d47a7a22.js.map",
+    "static/js/2.29c4b7de.chunk.js": "/the-martian-daily/static/js/2.29c4b7de.chunk.js",
+    "static/js/2.29c4b7de.chunk.js.map": "/the-martian-daily/static/js/2.29c4b7de.chunk.js.map",
+    "index.html": "/the-martian-daily/index.html",
+    "precache-manifest.49a2593fcd37686bbad2bca419f6c7f7.js": "/the-martian-daily/precache-manifest.49a2593fcd37686bbad2bca419f6c7f7.js",
+    "service-worker.js": "/the-martian-daily/service-worker.js",
+    "static/css/main.7822fec3.chunk.css.map": "/the-martian-daily/static/css/main.7822fec3.chunk.css.map",
+    "static/js/2.29c4b7de.chunk.js.LICENSE.txt": "/the-martian-daily/static/js/2.29c4b7de.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d47a7a22.js",
+    "static/js/2.29c4b7de.chunk.js",
+    "static/css/main.7822fec3.chunk.css",
+    "static/js/main.c14c0635.chunk.js"
+  ]
+}
