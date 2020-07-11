@@ -73,13 +73,15 @@ p{
 .collumn{
     font-size: 14px;
     line-height: 20px;
-    width: 17.5%;
+    width: 22%;
     display: inline-block;
     padding: 0 1% 0 1%;
     vertical-align: top;
     margin-bottom: 50px;
     transition: all .7s;
 }
+
+
 .collumn + .collumn { 
   border-left: 1px solid #2f2f2f;
 }
@@ -155,6 +157,19 @@ p{
     display: block;
     margin: 0 auto;
 
+}
+
+.inputBoxSearch {
+    content: '';
+    width: 200px;
+    height: 20px;
+    margin: 5px;
+}
+
+.buttonSearch {
+    width: 70px;
+    height: 25px;
+    margin: 5px;
 }
 
 .collumn .headline.hl5{

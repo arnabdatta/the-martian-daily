@@ -9,7 +9,6 @@ class PageHeader extends React.Component {
                 <div className="headerobjectswrapper">
                     <header>The Martian Daily</header>
                 </div>
-
                 <div className="subhead"><b>Mars</b> | <MarsDate/></div>
             </div>
         )

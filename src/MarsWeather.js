@@ -26,7 +26,7 @@ class MarsWeather extends React.Component {
         return  (
             <div>
                {this.state.SolKeys.map((solKey) => (
-                    <div class="weatherBox">
+                    <div className="weatherBox">
                         <center><b>Sol {solKey}  |  {this.state.WeatherData[solKey]["Season"]}  | 
                         UTC {new Date(this.state.WeatherData[solKey]["First_UTC"]).toLocaleDateString()}</b><br/> 
                         A: {this.state.WeatherData[solKey]["AT"].av} ℉ | 
