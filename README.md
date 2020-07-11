@@ -2,7 +2,7 @@
 
 It is a fun project build in ReactJS displaying a newspaper like view for various types of Mars data.
 
-See the demo
+Check out the [demo](https://arnabdatta.github.io/the-martian-daily/).
 
-https://arnabdatta.github.io/the-martian-daily/
+
 
